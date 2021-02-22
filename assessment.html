@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body {
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+      .myTable td {
+        padding: 20px;
+        border: 1px solid grey;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TEXT</h1>
+    <div class="">
+      <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div style="margin-left: 50px;">
+      <p><em> <strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </em></p>
+    </div>
+    <div class="">
+      <p> <strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <h1> Table </h1>
+    <table class="myTable">
+        <thead>
+            <tr>
+              <th>Team</th>  <th>First<br>Q1</th> <th>Half<br>Q2</th> <th>Second<br>Q3</th> <th>Half<br>Q4</th> <th>Final</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>Denver</td> <td>7</td>  <td>3</td>  <td>0</td>  <td>7</td>  <td>17</td>
+            </tr>
+            <tr>
+              <td>Chicago</td> <td>0</td>  <td>6</td> <td>3</td>  <td>6</td>  <td>15</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+              <th>Total</th> <th>7</th>  <th>9</th> <th>3</th>  <th>13</th>   <th>32</th>
+            </tr>
+        </thead>
+    </table>
+
+    <h1>List</h1>
+    <ul>
+
+      <li><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/DEN" alt="Denver Broncos' Horse Mascot" width="50vh"></li>
+      <a href="https://www.denverbroncos.com/">Denver Broncos</a>
+      <ul>
+        <li>Coach: Gary Kubiak</li>
+        <li>QB:</li>
+        <ol>
+          <li>Brock Osweiler</li>
+          <li>Trevor Siemian</li>
+          <li>Peyton Manning (injured)</li>
+        </ol>
+      </ul>
+
+      <li><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/CHI" alt="Chicago Bears 'C' Logo" width="50vh"></li>
+      <a href="https://www.chicagobears.com/">Chicago Bears</a>
+      <ul>
+        <li>Coach: Gary Kubiak</li>
+        <li>QB:</li>
+        <ol>
+          <li>Jay Cutler</li>
+          <li>David Foles</li>
+        </ol>
+      </ul>
+
+    </ul>
+
+    <h1> Form </h1>
+    <form action="/action_page.php">
+        <label for="fname">First:</label> <input type="text" id="fname" name="fname" value="Bob"><br>
+        <label for="lname">Last:</label>  <input type="text" id="lname" name="lname" value="Dobbs"><br><br>
+
+        <label for="favoriteSport">Favorite Sport:</label>
+        <select id="favoriteSport" name="">
+          <option value="Football">Football</option>
+          <option value="Soccer">Soccer</option>
+          <option value="Baseball">Baseball</option>
+          <option value="Hockey">Hockey</option>
+        </select>
+
+        <br><br>
+
+        <label for="iHave">I have:</label>
+        <input type="checkbox" value="Attended">  <label>Attended</label>
+        <input type="checkbox" value="Played">  <label>Played</label>
+        <input type="checkbox" value="Coached"> <label>Coached</label>
+        <input type="checkbox" value="Bet on">  <label>Bet on</label>
+
+        <br><br>
+
+        <label for="favoriteSport">For this sport I prefer the:</label>
+        <input type="radio" name="level" value="amatuer"> <label>Amatuer</label>
+        <input type="radio" name="level" value="college">  <label>College</label>
+        <input type="radio" name="level" value="Professional"> <label>Professional</label>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+        <br><br><br><br>
+
+    </form>
+
+  </body>
+</html>
